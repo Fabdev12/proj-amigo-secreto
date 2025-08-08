@@ -1,0 +1,53 @@
+
+🚀 Funcionalidades
+Adicionar nomes à lista de participantes.
+
+Impedir que campos vazios sejam adicionados (usa .trim() para remover espaços extras).
+
+Exibir lista de participantes na tela.
+
+Sortear e exibir pares de amigo secreto.
+
+📂 Estrutura do Projeto
+bash
+Copiar
+Editar
+📦 amigo-secreto
+ ┣ 📜 index.html       # Estrutura HTML da aplicação
+ ┣ 📜 style.css        # Estilos da aplicação
+ ┗ 📜 script.js        # Lógica principal do amigo secreto
+💻 Como Usar
+Abra o arquivo index.html no seu navegador.
+
+Digite o nome de um participante no campo de texto.
+
+Clique no botão Adicionar para incluir o participante.
+
+Após adicionar todos os nomes, clique em Sortear Amigo Secreto.
+
+Veja o resultado do sorteio exibido na tela.
+
+🛠 Tecnologias Utilizadas
+HTML5 → Estrutura do projeto.
+
+CSS3 → Estilização simples.
+
+JavaScript (ES6) → Lógica para adicionar nomes e sortear o amigo secreto.
+
+📜 Exemplo de Código Importante
+javascript
+Copiar
+Editar
+// Captura o valor do input e remove espaços extras
+const nome = input.value.trim();
+
+// Verifica se o nome não está vazio
+if (nome) {
+    participantes.push(nome);
+    input.value = ""; // Limpa o campo
+    atualizarLista();
+}
+📌 Observações
+O método .trim() é usado para evitar que espaços vazios sejam considerados como nomes válidos.
+
+A lista de participantes é armazenada em um array na memória enquanto a página estiver aberta.
