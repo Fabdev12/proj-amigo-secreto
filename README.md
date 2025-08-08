@@ -1,3 +1,6 @@
+🎁 Projeto Amigo Secreto
+Este projeto é uma aplicação simples em JavaScript, HTML e CSS para realizar um sorteio de amigo secreto.
+O usuário digita nomes em um campo de entrada, adiciona-os a uma lista e, ao final, realiza o sorteio para descobrir quem é o amigo secreto de cada participante.
 
 🚀 Funcionalidades
 Adicionar nomes à lista de participantes.
@@ -9,9 +12,6 @@ Exibir lista de participantes na tela.
 Sortear e exibir pares de amigo secreto.
 
 📂 Estrutura do Projeto
-bash
-Copiar
-Editar
 📦 amigo-secreto
  ┣ 📜 index.html       # Estrutura HTML da aplicação
  ┣ 📜 style.css        # Estilos da aplicação
@@ -30,14 +30,11 @@ Veja o resultado do sorteio exibido na tela.
 🛠 Tecnologias Utilizadas
 HTML5 → Estrutura do projeto.
 
-CSS3 → Estilização simples.
+CSS3 → Estilização simples e responsiva.
 
 JavaScript (ES6) → Lógica para adicionar nomes e sortear o amigo secreto.
 
 📜 Exemplo de Código Importante
-javascript
-Copiar
-Editar
 // Captura o valor do input e remove espaços extras
 const nome = input.value.trim();
 
@@ -51,3 +48,5 @@ if (nome) {
 O método .trim() é usado para evitar que espaços vazios sejam considerados como nomes válidos.
 
 A lista de participantes é armazenada em um array na memória enquanto a página estiver aberta.
+
+
